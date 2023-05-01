@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family:"absender" ;
+    src: url(/fonts/absender1.ttf)
+}
+
+@font-face{
+    font-family:"consolamono" ;
+    src: url(/fonts/ConsolaMono-Bold.ttf);
+}
+
+@font-face{
+    font-family:"sono" ;
+    src: url(/fonts/Sono-Bold.ttf);
+}
+
+
+body{
+    background-image: url(./images/minimalistic-gray-textures-2560x1600-abstract-textures-hd-art-wallpaper-preview.jpg);
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    
+
+}
+
+.logo{
+    background-color: rgb(163, 18, 18);
+    border: 3px solid rgba(196, 2, 2, 0.605);
+}
+
+h1{
+    color: rgba(0, 0, 0, 0.883);
+    text-shadow: 2px 3px 2px rgba(213, 212, 212, 0.442);
+    font-size: 50px;
+    font-family: "sono";
+    padding-top: 55px;
+    padding-left: 100px
+    
+}
+
+h2{
+    color: black;
+}
+
+nav{
+    font-size: 0px;
+    background-color: rgb(163, 18, 18);
+    border: 3px;
+    
+
+}
+
+.nav ul li a{
+    font-weight: 100;
+}
+
+
+li {
+    font-size: 1px;
+    
+    
+}
+
+ul {
+    display: inline-block;
+
+}
+
+
+.lista{
+    list-style: none;
+    display: flex;
+    margin: 30px;
+    justify-content:space-between
+    
+    
+}
+
+.lista li{
+    padding: 0px 40px;
+}
+.lista a{
+    color: black;
+    padding: 80px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h2{
+    margin: 50px;
+    text-align: center;
+    
+}
+
+h3{
+    color: black;
+    margin: 40px;
+}
+
+.quien_soy_foto{
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.texto{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family:"sono";
+    background-color: rgb(196, 2, 2);
+    padding: 20px;
+    margin-right: 15px;
+    
+}
+
+footer{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.caja_genero{
+    background-color: rgba(160, 160, 160, 0.495);
+    border: 3px solid rgba(163, 18, 18, 0.785);
+    padding: 10px;
+    margin: 15px;
+}
+
+.grid_texto_img{
+    display: grid;
+    grid-template-columns: 1fr 1 fr 1fr ;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+    "img texto texto"
+    "img texto texto"
+    "img texto texto";
+    padding: 30px;
+    margin: 5px;
+} 
+
+iframe{
+    margin: 20px;
+    border: 3px solid rgba(163, 18, 18, 0.785);
+}
+
+.catalogo_completo{
+    background-color: rgba(131, 131, 131, 0.845);
+    height: 1000px;
+}
+
+.consultoria {
+    background-color: rgb(196, 2, 2);
+    padding: 30px;
+}
+
+.catalogo_completo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(12, 1fr);
+    margin-bottom: 20px;
+}
+
+.generos {
+justify-content: center;
+text-align: center;
+color: black;
+margin-top: 20px;
+}
+
+nav{
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+nav ul {
+justify-content: space-between;
+}
+
+form{
+    color: rgb(255, 255, 255);
+}
+
+.pruebagucci{
+    width: 300px ;
+    height: auto;
+    background-size: cover;
+}
+
+.carta{
+    display: inline-block;
+
+}
